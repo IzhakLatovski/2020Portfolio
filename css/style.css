@@ -86,6 +86,10 @@
   letter-spacing: 4px;
 }
 
+.site-main .about-section .paragraph {
+  width: 70%;
+}
+
 .site-main .about-section .about-title .paragraph > p {
   padding: 0.4rem 0;
 }
@@ -186,7 +190,7 @@
 .site-main .education-area .education {
   background: rgba(248, 252, 253, 0.973);
   padding: 2rem 0;
-  width: 16rem;
+  width: 100%;
   margin: 2rem 0.5rem;
   transition: box-shadow 0.7s ease;
 }
@@ -198,7 +202,7 @@
 
 /* start portfolio */
 .site-main .portfolio-area {
-  padding: 8rem 20rem 0;
+  padding: 8rem 14rem 0;
 }
 
 /* @media only screen and (max-width: 992px) {

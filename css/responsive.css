@@ -1,12 +1,103 @@
-@media only screen and (max-width: 340px) {
-  .header-area .main-menu .navbar {
-    padding: 2%;
-    margin: 0;
+@media only screen and (max-width: 1200px) {
+  .header-area .main-menu .navbar .navbar-brand {
+    padding: 1rem 5rem 1rem 3rem;
   }
 
-  /* .site-main .skills-area .experience-area {
-    margin: 0;
+  .site-main .about-section .paragraph {
+    width: 100%;
+  }
+
+  .site-main .skills-area .experience-area {
+    display: none;
+  }
+
+  .site-main .education-area {
+    padding: 8rem 1rem 0;
+  }
+
+  .site-main .education-area .container {
+    margin: 0 auto;
+  }
+
+  .site-main .portfolio-area {
+    padding: 8rem 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .site-main .site-banner .banner-image > img {
+    padding: 3rem 0;
+    width: 100%;
+    margin-top: 50%;
+  }
+
+  .site-main .about-section .about-image > img {
+    padding: 3rem 0;
+    width: 100%;
+    margin-top: 50%;
+  }
+
+  .site-main .skills-area {
+    padding: 8rem 8rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .site-main .site-banner .banner-image > img {
+    padding: 1rem 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .site-main .site-banner .site-title h3 {
+    padding-top: 10%;
+    font-weight: 500;
+  }
+
+  .site-main .about-section .about-image > img {
+    display: none;
+  }
+
+  .site-main .skills-area {
+    padding: 8rem 6rem 0;
+  }
+
+  .site-main .education-area {
+    padding: 0 20%;
+  }
+
+  .site-main .portfolio-area .button-group button {
+    font: normal 500 16px/30px var(--roboto);
+  }
+
+  .site-main .portfolio-area .button-group button + button {
+    padding-left: 1rem;
+  }
+
+  .site-main .portfolio-area .button-group {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .site-main .site-banner .site-buttons button {
+    margin-bottom: 0.4rem;
+  }
+  .site-main .about-section {
+    padding: 8rem 1rem 0;
+  }
+
+  .site-main .contact-area {
     padding: 0;
-    max-width: 370px;
-  } */
+  }
+
+  .site-main .contact-area .contact-background {
+    padding: 3rem 1rem;
+    width: 100%;
+  }
+
+  .site-main .contact-area .contact-background .form-area {
+    width: 80%;
+    margin: 4rem auto 5rem;
+  }
 }
