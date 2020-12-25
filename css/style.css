@@ -6,9 +6,9 @@
 
 /* Global styling */
 @import url(./partials/_global.css);
-
+/* #4458dc */
 :root {
-    --primary-color: #4458dc;
+    --primary-color: red;
     --primary-color2: #854fee;
     --title-color: #141313;
     --text-color: #777777;
